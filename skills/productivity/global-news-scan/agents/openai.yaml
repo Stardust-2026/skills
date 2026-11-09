@@ -1,0 +1,14 @@
+interface:
+  display_name: Global News Scan
+  short_description: Scan global news, markets, apps and GSA opportunities
+  default_prompt: Use $global-news-scan to prepare today’s report and use DeepSeek
+    Search if configured.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
